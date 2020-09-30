@@ -303,8 +303,6 @@ Example:
 t("Check for something", "//[a]", ["foo", "bar"]);
 ```
 
-
-
 ### Fires a native DOM event without going through jQuery ###
 
 ```js
@@ -336,7 +334,6 @@ url("mock.php?foo=bar");
 => "data/mock.php?foo=bar&10538358345554"
 ```
 
-
 ### Run tests in an iframe ###
 
 Some tests may require a document other than the standard test fixture, and
@@ -363,7 +360,6 @@ The `testCallback` receives the QUnit `assert` object created by `testIframe`
 for this test, followed by the global `jQuery`, `window`, and `document` from
 the iframe. If the iframe code passes any arguments to `startIframeTest`,
 they follow the `document` argument.
-
 
 Questions?
 ----------
